@@ -26,5 +26,13 @@ h1{margin:0;font-size:26px}
 .lead{color:var(--text);opacity:.95}
 .bullets{padding-left:18px;line-height:1.8}
 footer{margin:28px 0;color:var(--muted);display:flex;gap:10px;align-items:center}
-footer a{color:var(--accent);text-decoration:none}
-footer a:hover{text-decoration:underline}
+footer a {
+  color: #4DA6FF; /* matches your site’s accent blue */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #FF6B4A; /* coral hover color */
+}
